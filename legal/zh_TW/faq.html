@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Pocket - 常見問題</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #333; background: #f9f9f9; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; border-radius: 12px; padding: 40px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        h1 { font-size: 28px; margin-bottom: 8px; color: #1a1a1a; }
+        .date { color: #999; font-size: 14px; margin-bottom: 24px; }
+        .faq-item { margin-bottom: 24px; }
+        .question { font-size: 17px; font-weight: 600; color: #1a1a1a; margin-bottom: 8px; padding-left: 24px; position: relative; }
+        .question::before { content: "Q"; position: absolute; left: 0; color: #F2B33A; font-weight: 700; }
+        .answer { font-size: 15px; color: #555; padding-left: 24px; position: relative; }
+        .answer::before { content: "A"; position: absolute; left: 0; color: #F2B33A; font-weight: 700; }
+        .divider { border: none; border-top: 1px solid #eee; margin: 20px 0; }
+        .contact { background: #f8f4e8; padding: 16px; border-radius: 8px; margin-top: 24px; }
+        .contact h3 { font-size: 16px; margin-bottom: 8px; color: #444; }
+        .contact p { font-size: 14px; color: #555; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>常見問題</h1>
+        <p class="date">最後更新: 2026年4月1日</p>
+
+        <div class="faq-item">
+            <p class="question">必須先記錄換匯才能添加支出嗎？</p>
+            <p class="answer">不需要。沒有換匯記錄也可以記錄支出。但是，換匯記錄是使用加權平均匯率計算和現金餘額追蹤功能的前提。如果您只使用信用卡支付，可以只記錄支出而不進行換匯。</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">什麼是加權平均匯率？</p>
+            <p class="answer">多次換匯時，每次匯率都不同。加權平均匯率是以每次換匯金額為權重計算的實際平均匯率。例如，以匯率900換了1000美元，以匯率920換了500美元，加權平均匯率為 (1000x900 + 500x920) / 1500 = 906.67。</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">可以離線使用嗎？</p>
+            <p class="answer">可以。所有資料都儲存在您的裝置本機，國家/貨幣資訊也內建在應用中。無需網路連線即可使用所有功能。</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">我的資料儲存在哪裡？</p>
+            <p class="answer">所有資料僅儲存在您的裝置本機。不會傳送到外部伺服器。刪除應用後，所有資料也會一併刪除。</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">旅行結束後如何結算？</p>
+            <p class="answer">在旅行詳情頁面點擊「結束旅行」按鈕，應用會自動計算參與者之間所需的最少轉帳次數。您可以一目了然地看到「誰需要向誰轉多少錢」。</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">可以分別查看現金和卡的餘額嗎？</p>
+            <p class="answer">可以。記錄換匯時，您可以分別輸入現金和簽帳卡金額，每種餘額獨立追蹤。信用卡支出不影響餘額。</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">可以備份資料嗎？</p>
+            <p class="answer">目前暫不提供雲端備份功能。旅行結束後，您可以將報告匯出為圖片或CSV格式保存記錄。雲端備份功能將在未來的更新中提供。</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">支援哪些語言？</p>
+            <p class="answer">我們支援7種語言：韓語、英語、日語、西班牙語、葡萄牙語、簡體中文和繁體中文。您可以在設定頁面更改語言。</p>
+        </div>
+
+        <div class="contact">
+            <h3>還有其他問題嗎？</h3>
+            <p>電子郵件: <strong>creative.appflow@gmail.com</strong></p>
+        </div>
+    </div>
+</body>
+</html>

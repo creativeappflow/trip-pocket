@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Pocket - FAQ</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #333; background: #f9f9f9; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; border-radius: 12px; padding: 40px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        h1 { font-size: 28px; margin-bottom: 8px; color: #1a1a1a; }
+        .date { color: #999; font-size: 14px; margin-bottom: 24px; }
+        .faq-item { margin-bottom: 24px; }
+        .question { font-size: 17px; font-weight: 600; color: #1a1a1a; margin-bottom: 8px; padding-left: 24px; position: relative; }
+        .question::before { content: "Q"; position: absolute; left: 0; color: #F2B33A; font-weight: 700; }
+        .answer { font-size: 15px; color: #555; padding-left: 24px; position: relative; }
+        .answer::before { content: "A"; position: absolute; left: 0; color: #F2B33A; font-weight: 700; }
+        .divider { border: none; border-top: 1px solid #eee; margin: 20px 0; }
+        .contact { background: #f8f4e8; padding: 16px; border-radius: 8px; margin-top: 24px; }
+        .contact h3 { font-size: 16px; margin-bottom: 8px; color: #444; }
+        .contact p { font-size: 14px; color: #555; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <p class="date">Last updated: April 1, 2026</p>
+
+        <div class="faq-item">
+            <p class="question">Do I need to record a currency exchange before adding expenses?</p>
+            <p class="answer">No. You can record expenses without any exchange records. However, exchange records are needed to use the weighted average exchange rate calculation and cash balance tracking features. If you only pay by credit card, you can just record expenses without any exchanges.</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">What is a weighted average exchange rate?</p>
+            <p class="answer">When you exchange currency multiple times, the rate differs each time. The weighted average rate is calculated using each exchange amount as a weight. For example, if you exchanged $1,000 at 900 and $500 at 920, the weighted average would be (1000x900 + 500x920) / 1500 = 906.67.</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">Can I use the app offline?</p>
+            <p class="answer">Yes. All data is stored locally on your device, and country/currency information is built into the app. You can use all features without an internet connection.</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">Where is my data stored?</p>
+            <p class="answer">All data is stored only on your device (locally). Nothing is sent to external servers. If you delete the app, all data will be deleted as well.</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">How does the settlement work after a trip?</p>
+            <p class="answer">Tap the "End Trip" button on the trip detail screen, and the app will automatically calculate the minimum number of transfers needed between participants. You can see at a glance "who needs to send how much to whom."</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">Can I track cash and card balances separately?</p>
+            <p class="answer">Yes. When recording an exchange, you can enter cash and debit card amounts separately, and each balance is tracked independently. Credit card expenses do not affect the balance.</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">Can I back up my data?</p>
+            <p class="answer">Cloud backup is not available yet. After ending a trip, you can export your report as an image or CSV to keep a record. Cloud backup will be available in a future update.</p>
+        </div>
+        <hr class="divider">
+
+        <div class="faq-item">
+            <p class="question">What languages are supported?</p>
+            <p class="answer">We support 7 languages: Korean, English, Japanese, Spanish, Portuguese, Simplified Chinese, and Traditional Chinese. You can change the language in the Settings screen.</p>
+        </div>
+
+        <div class="contact">
+            <h3>Have more questions?</h3>
+            <p>Email: <strong>creative.appflow@gmail.com</strong></p>
+        </div>
+    </div>
+</body>
+</html>
